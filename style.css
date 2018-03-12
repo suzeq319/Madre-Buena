@@ -106,7 +106,7 @@ img {
 ======================================== */
 .intro, .content, .footer-related {
   margin: 0 auto;
-  max-width: 1280px;
+  max-width: 1140px;
   padding: 0 15px;
 }
 .intro:before, .intro:after, .content:before, .content:after, .footer-related:before, .footer-related:after, blockquote:before, blockquote:after {
@@ -137,6 +137,7 @@ header {
 }
 .site-header-left li a {
   text-decoration: none;
+  font-family: "Raleway";
 }
 .site-header-left li.logo {
   display: inline-block;
@@ -159,6 +160,8 @@ header {
   display: inline;
 }
 .site-header-right li a {
+
+  font-family: "Raleway";
   text-decoration: none;
   margin-left: 20px;
   margin-top: -15px;
@@ -197,12 +200,14 @@ p.tag {
   text-align: center;
   margin: 0 auto 2em;
   border-bottom: 1px solid #44E6CC;
-  width: 150px;
+  width: 120px;
   padding-bottom: 0.25em;
+  font-family: "Barlow Condensed", Arial, sans-serif;
+  font-size: 18px;
   text-transform: uppercase;
 }
 .intro {
-  padding: 3em 0;
+  padding: 4.5em 0;
 }
 .intro p {
   width: 90%;
@@ -246,7 +251,7 @@ p.tag {
 }
 
 .content {
-  padding: 3em 0;
+  padding: 4.5em 0;
 }
 
 .bio {
