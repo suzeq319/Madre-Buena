@@ -42,7 +42,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: serif;
+  font-family: "Playfair Display", Georgia, serif;
+  font-style: italic;
   font-weight: 700;
   line-height: 1.25;
   margin-bottom: 15px;
@@ -77,7 +78,7 @@ h3 {
   }
 }
 p {
-  font-family: sans-serif;
+  font-family: "Raleway", Arial, sans-serif;
   font-size: 16px;
   line-height: 23px;
   margin: 0 0 15px;
@@ -121,6 +122,7 @@ header {
   background-color: rgba(255,248,184,0.1);
   border-bottom: 5px solid rgba(255,248,184,1);
   margin-bottom: 2em;
+  font-family: "Railway", Arial, sans-serif;
 }
 .site-navigation {
   margin: 0 auto;
@@ -141,6 +143,7 @@ header {
   text-transform: uppercase;
 }
 .site-header-left li.logo a {
+  font-family: "Barlow Condensed", Arial, sans-serif;
   color: #EB4A34;
 }
 .site-header-left li.logo a span {
@@ -178,6 +181,7 @@ header {
   text-align: center;
   text-decoration: none;
   transition: opacity 0.5s ease;
+  padding: 15px 20px;
 }
 .button-primary:hover {
   opacity: 0.75;
@@ -238,7 +242,7 @@ p.tag {
   clear: both;
   position: relative;
   top: -5px;
-  font-family: sans-serif;
+  font-family: "Raleway", Arial, sans-serif;
 }
 
 .content {
@@ -282,7 +286,8 @@ img.bio-avatar {
   margin: 2em auto;
 }
 .article-content p {
-
+  font-size: 16px;
+  line-height: 1.6;
 }
 
 blockquote {
